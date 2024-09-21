@@ -5,8 +5,8 @@ import numpy as np
 from sklearn.base import BaseEstimator  # Importing to check if model is a valid model
 
 # Path to model and dataset
-model_path = r'C:\Users\ivish\car_price_prediction_model_cleaned.pkl'
-data_path = r'C:\Users\ivish\OneDrive\Desktop\car_prices.csv'
+model_path = "car_price_prediction_model_cleaned.pkl"
+data_path = "car_prices.csv"
 
 # Load dataset (for dropdowns and further exploration if needed)
 try:
